@@ -1,0 +1,13 @@
+/* using border-line for easier layout */
+html {
+    box-sizing: border-box;
+}
+*, *::before, *:after {
+    box-sizing: inherit; /* inherit from html for all elements */
+}
+.grid-item {
+    width: 200px;
+    height: 10px;
+    border:1px solid black;
+    /*with border-box, total width is 200px. content width will be 200 - (2*10) - (2*1) = 178px */
+}

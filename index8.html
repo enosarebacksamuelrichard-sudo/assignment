@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>external css example</title>
+    <style>
+        .flex-container {
+             display: flex;
+             flex-direction: row; /* items arranged horizontally */
+             justify-content: space-around; /* distribute space evenly around items */
+             align-items: center; /* vertically center items */
+             height: 200px;
+             border: 2px solid blue;
+        }
+        .flex-item {
+            background-color: lightblue;
+            padding  :20px;
+            margin: 5px;
+        }            
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item">rice</div>
+        <div class="flex-item">beans</div>
+        <div class="flex-item">corn</div>
+    </div>
+</body>
+</html>
