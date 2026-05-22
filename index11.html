@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>external css example</title>
+    <link rel="stylesheet" href="style11.css">
+    <style>
+        .parent-relative {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            border: 2px solid red;
+        }
+        .child-absolute {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 100px;
+            height: 50px;
+            background-color: lightblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="parent-relative">
+        <div class="child-absolute">
+            Absolute box
+        </div></div>
+</body>
+</html>

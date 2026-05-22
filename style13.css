@@ -1,0 +1,29 @@
+/* default styles for mobile-first (small screens) */
+body {
+    font-size: 16px;
+}
+.container {
+    width:100%;
+    padding: 10px;
+}
+
+/*styles for tablets and larger screens (min-width: 768px) */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px; 
+    }
+    .container {
+        width: 700px; /* max width for tablets */
+        margin: 0 auto; /* center  ooon larger screens */
+    }
+}
+
+/* styles for desktops and larger screens (min-width: 1024px) */
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 20px; 
+    }
+    .container {
+        width: 900px; /* max width for desktops */
+    }
+}

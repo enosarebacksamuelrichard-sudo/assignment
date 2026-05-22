@@ -1,0 +1,22 @@
+/* Mobile-first: stacked items */
+.product-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* center items in column */
+}
+.product-item {
+    width: 90px; /* take up most of the mobile width */
+    margin: 10px;
+}
+/* desktop: two columns */
+@media screen and (min-width: 768px) {
+    .product-list {
+        flex-direction: row; /* items in a row */
+        flex-wrap: wrap; /* allow items to wrap */
+        justify-content: space-around; /* distibute horizontally */
+    }
+    .product-card {
+    width: 45%; /* two cards per row with some space */
+  }
+}
+  
