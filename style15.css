@@ -1,0 +1,4 @@
+div p { /* selects all <p> elements inside a <div> */
+    color: darkgreen;
+
+}

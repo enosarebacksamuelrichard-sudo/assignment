@@ -1,0 +1,9 @@
+p { /* specificity: 1 */
+    color: blue;
+}
+.text-style { /* specificity: 10 */
+    color: green;
+}
+#my-paragraph { /* specificity: 100 */
+    color: red;
+}
